@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.demo.videocachedemo.app-mergeReleaseResources-29:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/mingo/.gradle/caches/transforms-3/7fcada7be06a7fe2f41d9b9a50e81a50/transformed/appcompat-1.7.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

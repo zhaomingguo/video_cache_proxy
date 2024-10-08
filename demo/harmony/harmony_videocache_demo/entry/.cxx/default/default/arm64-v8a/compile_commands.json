@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/.cxx/default/default/arm64-v8a",
+  "command": "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB2/openharmony/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB2/openharmony/native/llvm --sysroot=/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB2/openharmony/native/sysroot -Dentry_EXPORTS -I/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB2/hms/native/sysroot/usr/include -I/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/src/main/cpp -I/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/src/main/cpp/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O0 -g -fno-limit-debug-info  -fPIC -o CMakeFiles/entry.dir/napi_init.cpp.o -c /Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/src/main/cpp/napi_init.cpp",
+  "file": "/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/src/main/cpp/napi_init.cpp",
+  "output": "CMakeFiles/entry.dir/napi_init.cpp.o"
+}
+]

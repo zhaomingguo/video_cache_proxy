@@ -1,0 +1,119 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULE_CONFIG": [
+      {
+        "MODULE_NAME": "entry",
+        "API_TYPE": "stageMode",
+        "TARGETS": [
+          {
+            "name": "default"
+          },
+          {
+            "name": "ohosTest"
+          }
+        ],
+        "DEVICE_TYPES": [
+          "phone",
+          "tablet",
+          "2in1"
+        ],
+        "AOT_COMPILE_MODE": "type",
+        "INCREMENTAL_TASKS": {
+          "BUILD_NATIVE_WITH_CMAKE": true,
+          "COMPILE_ARKTS": true
+        }
+      },
+      {
+        "MODULE_NAME": "videocache",
+        "API_TYPE": "stageMode",
+        "TARGETS": [
+          {
+            "name": "default"
+          },
+          {
+            "name": "ohosTest"
+          }
+        ],
+        "DEVICE_TYPES": [
+          "default",
+          "tablet",
+          "2in1"
+        ],
+        "AOT_COMPILE_MODE": "type",
+        "INCREMENTAL_TASKS": {
+          "BUILD_NATIVE_WITH_CMAKE": true
+        }
+      }
+    ],
+    "PROJECT_CONFIG": {
+      "PRODUCTS": [
+        {
+          "NAME": "default",
+          "COMPATIBLE_SDK_VERSION": "5.0.0(12)",
+          "RUNTIMEOS": "HarmonyOS"
+        }
+      ],
+      "BUILD_MODE_SET": [
+        {
+          "NAME": "debug"
+        },
+        {
+          "NAME": "release"
+        }
+      ],
+      "MODULES": [
+        {
+          "TARGETS": [
+            {
+              "NAME": "default"
+            }
+          ]
+        },
+        {
+          "TARGETS": []
+        }
+      ],
+      "BUILD_MODE": "debug"
+    }
+  },
+  "totalTime": 889148917,
+  "moduleNum": 1,
+  "taskTime": {
+    "compileArkTS": 362459125,
+    "buildArkTS": 0,
+    "compileJS": 0,
+    "buildJS": 697500,
+    "compileResource": 0,
+    "packageHap": 198597125,
+    "signHap": 195716250
+  },
+  "isIncremental": true,
+  "hasIncremental": true,
+  "isParallel": true,
+  "IS_DAEMON": true,
+  "LOG_LEVEL": "INFO",
+  "IS_HVIGORFILE_TYPE_CHECK": false,
+  "TASK_TIME": {
+    "entry": {
+      "PreCheckSyscap": 87500,
+      "GeneratePkgContextInfo": 111334,
+      "ProcessIntegratedHsp": 430291,
+      "SyscapTransform": 990584,
+      "ConfigureCmake": 3426375,
+      "BuildNativeWithCmake": 2097042,
+      "BuildJS": 697500,
+      "BuildNativeWithNinja": 37132167,
+      "CompileArkTS": 362459125,
+      "GeneratePkgModuleJson": 503416,
+      "PackageHap": 198597125,
+      "SignHap": 195716250,
+      "assembleHap": 78417
+    },
+    "videocache": {
+      "ConfigureCmake": 7336958,
+      "BuildNativeWithCmake": 5325417,
+      "BuildNativeWithNinja": 260921292
+    }
+  },
+  "BUILD_ID": "202409131234598790"
+}

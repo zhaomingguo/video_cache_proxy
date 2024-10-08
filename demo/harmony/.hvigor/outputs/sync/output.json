@@ -1,0 +1,292 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build",
+    "DEPENDENCY_INFO": {
+      "@arch/cicadaplayer": "/Users/lhl/project/video-cache-proxy/template/harmony/oh_modules/.ohpm/@arch+cicadaplayer@0.0.24-SNAPSHOT/oh_modules/@arch/cicadaplayer",
+      "@arch/media_cache_proxy": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/lhl/project/video-cache-proxy/template/harmony/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/hap_metadata/default/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Users/lhl/project/video-cache-proxy/template/harmony/entry/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/lhl/project/video-cache-proxy/template/harmony/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "externalNativeOptions": {
+          "path": "./src/main/cpp/CMakeLists.txt",
+          "arguments": "",
+          "cppFlags": ""
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "externalNativeOptions": {
+          "path": "./src/main/cpp/CMakeLists.txt",
+          "arguments": "",
+          "cppFlags": ""
+        }
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          },
+          "nativeLib": {
+            "debugSymbol": {
+              "strip": true,
+              "exclude": []
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-module-videocache": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/src/main",
+        "RESOURCES_PATH": [
+          "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache/build/default/intermediates/hap_metadata/default/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "externalNativeOptions": {
+          "path": "./src/main/cpp/CMakeLists.txt",
+          "arguments": "",
+          "cppFlags": ""
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "externalNativeOptions": {
+          "path": "./src/main/cpp/CMakeLists.txt",
+          "arguments": "",
+          "cppFlags": ""
+        }
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          },
+          "nativeLib": {
+            "debugSymbol": {
+              "strip": true,
+              "exclude": []
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/lhl/project/video-cache-proxy/template/harmony/build",
+    "BUNDLE_NAME": "com.example.harmony_videocache_demo",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/lhl/project/video-cache-proxy/template/harmony/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "/Users/lhl/project/video-cache-proxy/template/harmony/entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/lhl/project/video-cache-proxy/template/harmony"
+      },
+      {
+        "name": "videocache",
+        "srcPath": "/Users/lhl/project/video-cache-proxy/template/harmony/videocache",
+        "belongProjectPath": "/Users/lhl/project/video-cache-proxy/template/harmony"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "/Users/lhl/.ohos/config/default_video_cache_ohos_Fghd327qn0A-Qjc6JYHGxSzrrkthHm8QxRD6hN8S03Y=.cer",
+              "storePassword": "0000001B52B9F4FEDACC20DAD3796177D58D00142713D0FFD1433A6775174A7A1870C1850BF44E895A4C5A",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001B01514AB4888AA25D08A0D352E2854BA05EE5F77C8544F244AB8B7B1DDB7E59035515C471668929",
+              "profile": "/Users/lhl/.ohos/config/default_video_cache_ohos_Fghd327qn0A-Qjc6JYHGxSzrrkthHm8QxRD6hN8S03Y=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "/Users/lhl/.ohos/config/default_video_cache_ohos_Fghd327qn0A-Qjc6JYHGxSzrrkthHm8QxRD6hN8S03Y=.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "videocache",
+          "srcPath": "./videocache"
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Users/lhl/project/video-cache-proxy/template/harmony"
+    ]
+  },
+  "version": 1
+}

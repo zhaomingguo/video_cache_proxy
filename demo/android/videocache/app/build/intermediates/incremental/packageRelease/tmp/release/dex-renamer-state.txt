@@ -1,0 +1,4 @@
+#Wed Sep 25 15:43:26 CST 2024
+base.0=/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/android/videocache/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

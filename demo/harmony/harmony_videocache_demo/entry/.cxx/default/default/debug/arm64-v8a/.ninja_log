@@ -1,0 +1,23 @@
+# ninja log v6
+1	31	1724331101014138775	CMakeFiles/entry.dir/napi_init.cpp.o	34632622b73fe723
+2	45	1724331584096505149	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	a7673bbae0866b54
+2	30	1724332090732949437	CMakeFiles/entry.dir/napi_init.cpp.o	ee83786bcd1f5087
+30	72	1724332090761261081	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+1	40	1724332640217750032	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+1	43	1724332666823142161	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+3	48	1724333673483007163	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+1	47	1724333674666598404	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	45	1724333707170620067	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+1	41	1724333740425911033	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	43	1724334901464458846	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	38	1724334916041944077	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	42	1724339756612026500	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	42	1724339914846286406	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	39	1724341828715263440	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+1	42	1724342286033790837	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	47	1724342507442742437	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	41	1724342543807804566	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+1	41	1724342622380903420	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+2	47	1724343080981475527	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+1	44	1724343741146708373	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5
+1	41	1724343755039651793	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	812e1b85a2036ad5

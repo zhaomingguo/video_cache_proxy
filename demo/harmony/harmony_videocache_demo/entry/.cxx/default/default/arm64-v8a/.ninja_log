@@ -1,0 +1,16 @@
+# ninja log v6
+1	32	1723024903656537219	CMakeFiles/entry.dir/napi_init.cpp.o	f28ba05c8dc64d4b
+1	260	1723104092019978804	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+0	58	1723104186161110251	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+2	49	1723104212674281920	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+1	47	1723104637588522982	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+1	41	1723104664471186934	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+1	53	1723107647093576332	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+1	49	1723177818161575297	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+1	48	1723181555329860834	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+1	42	1723181588878629784	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+1	40	1723181748565089650	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+2	42	1723184252071921329	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+2	45	1723195256036807511	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+2	43	1723454561912725412	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc
+1	40	1723454568577466354	/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	2c66715bbaa160dc

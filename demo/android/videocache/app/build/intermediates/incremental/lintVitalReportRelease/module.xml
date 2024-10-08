@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/android/videocache/app"
+    name=":app"
+    type="APP"
+    maven="videocache:app:"
+    agpVersion="8.0.2"
+    buildFolder="build"
+    bootClassPath="/Users/mingo/Library/Android/sdk/platforms/android-34/android.jar:/Users/mingo/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

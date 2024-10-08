@@ -1,0 +1,16 @@
+{
+	"BuildOptions":{
+		"BUNDLE_NAME":"com.example.harmony_videocache_demo",
+		"SELECT_BUILD_MODE":"",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/build/outputs/default"
+		},
+		"SELECT_BUILD_PRODUCT":"default"
+	},
+	"CommonInfo":{
+		"crossplatform.projectType":"",
+		"project.ide.version":"5.0.3.700",
+		"current.select.product":"default",
+		"current.select.buildMode":""
+	}
+}

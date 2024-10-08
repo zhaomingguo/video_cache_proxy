@@ -1,0 +1,237 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories",
+			"include",
+			"project"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB5/hms/native/build/cmake/hmos.toolchain.cmake",
+			"/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB5/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 170,
+				"parent" : 5
+			},
+			{
+				"file" : 1,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -D__MUSL__ -O0 -g -fno-limit-debug-info  -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "videocache_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB5/hms/native/sysroot/usr/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/libevent/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/openssl/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/video_cache/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB5/openharmony/native/sysroot"
+			}
+		}
+	],
+	"id" : "videocache::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "--rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/libevent/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/openssl/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/video_cache/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/libevent/lib:/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/openssl/lib:/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/cpp/../../../libs/arm64-v8a/video_cache/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lace_napi.z",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-levent",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-levent_openssl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lssl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lcrypto",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lvideo_cache",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lz",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB5/openharmony/native/sysroot"
+		}
+	},
+	"name" : "videocache",
+	"nameOnDisk" : "libvideocache.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "napi_init.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

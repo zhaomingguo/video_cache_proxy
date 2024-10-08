@@ -1,0 +1,1 @@
+export { VideoCacheApi } from './src/main/ets/native/VideoCacheApi'

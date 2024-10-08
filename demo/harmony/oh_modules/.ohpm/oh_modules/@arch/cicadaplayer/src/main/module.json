@@ -1,0 +1,28 @@
+{
+	"app": {
+		"bundleName": "com.example.jjcicadaplayer",
+		"debug": true,
+		"versionCode": 1000000,
+		"versionName": "1.0.0",
+		"minAPIVersion": 50000012,
+		"targetAPIVersion": 50000012,
+		"apiReleaseType": "Beta3",
+		"compileSdkVersion": "5.0.0.36",
+		"compileSdkType": "HarmonyOS",
+		"appEnvironments": [],
+		"bundleType": "app"
+	},
+	"module": {
+		"name": "cicadaplayer",
+		"type": "har",
+		"deviceTypes": [
+			"default",
+			"tablet",
+			"2in1"
+		],
+		"installationFree": false,
+		"virtualMachine": "ark12.0.2.0",
+		"compileMode": "esmodule",
+		"dependencies": []
+	}
+}

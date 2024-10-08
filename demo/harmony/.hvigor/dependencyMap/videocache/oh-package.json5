@@ -1,0 +1,1 @@
+{"name":"@arch/media_cache_proxy","version":"0.0.2-SNAPSHOT","description":"A cache service to save media file","main":"Index.ets","author":"liaohailong","license":"Apache-2.0","dependencies":{"libvideocache.so":"file:./src/main/cpp/types/libvideocache"}}

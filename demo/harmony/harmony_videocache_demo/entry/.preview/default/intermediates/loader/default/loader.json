@@ -1,0 +1,28 @@
+{
+  "modulePathMap": {
+    "entry": "/Users/mingo/Applications/workspace/demo/harmony_videocache_demo/entry",
+    "video_cache": "/Users/mingo/Applications/workspace/demo/harmony_videocache_demo/video_cache"
+  },
+  "compileMode": "esmodule",
+  "projectRootPath": "/Users/mingo/Applications/workspace/demo/harmony_videocache_demo",
+  "nodeModulesPath": "/Users/mingo/Applications/workspace/demo/harmony_videocache_demo/entry/.preview/default/intermediates/loader_out/default/node_modules",
+  "byteCodeHarInfo": {},
+  "declarationEntry": [],
+  "moduleName": "entry",
+  "hspNameOhmMap": {
+    "video_cache": "@bundle:com.example.harmony_videocache_demo/video_cache/Index"
+  },
+  "harNameOhmMap": {},
+  "packageManagerType": "ohpm",
+  "compileEntry": [
+    "/Users/mingo/Applications/workspace/demo/harmony_videocache_demo/entry/src/mock/Libentry.mock.ets"
+  ],
+  "otherCompileFiles": [],
+  "dynamicImportLibInfo": {},
+  "routerMap": [],
+  "hspResourcesMap": {
+    "video_cache": "/Users/mingo/Applications/workspace/demo/harmony_videocache_demo/video_cache/.preview/default/intermediates/res/default/ResourceTable.txt"
+  },
+  "anBuildOutPut": "/Users/mingo/Applications/workspace/demo/harmony_videocache_demo/entry/.preview/default/intermediates/loader_out/default/an/arm64-v8a",
+  "anBuildMode": "type"
+}

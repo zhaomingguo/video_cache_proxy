@@ -1,0 +1,1 @@
+export { MediaCacheService } from './src/main/ets/native/MediaCacheService'

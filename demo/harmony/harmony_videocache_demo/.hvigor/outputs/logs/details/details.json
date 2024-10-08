@@ -1,0 +1,119 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULE_CONFIG": [
+      {
+        "MODULE_NAME": "entry",
+        "API_TYPE": "stageMode",
+        "TARGETS": [
+          {
+            "name": "default"
+          },
+          {
+            "name": "ohosTest"
+          }
+        ],
+        "DEVICE_TYPES": [
+          "phone",
+          "tablet",
+          "2in1"
+        ],
+        "AOT_COMPILE_MODE": "type"
+      },
+      {
+        "MODULE_NAME": "videocache",
+        "API_TYPE": "stageMode",
+        "TARGETS": [
+          {
+            "name": "default"
+          },
+          {
+            "name": "ohosTest"
+          }
+        ],
+        "DEVICE_TYPES": [
+          "default",
+          "tablet",
+          "2in1"
+        ],
+        "AOT_COMPILE_MODE": "type",
+        "INCREMENTAL_TASKS": {
+          "BUILD_NATIVE_WITH_CMAKE": true,
+          "COMPILE_ARKTS": false
+        }
+      }
+    ],
+    "PROJECT_CONFIG": {
+      "PRODUCTS": [
+        {
+          "NAME": "default",
+          "COMPATIBLE_SDK_VERSION": "5.0.0(12)",
+          "RUNTIMEOS": "HarmonyOS"
+        }
+      ],
+      "BUILD_MODE_SET": [
+        {
+          "NAME": "debug"
+        },
+        {
+          "NAME": "release"
+        }
+      ],
+      "MODULES": [
+        {
+          "TARGETS": [
+            {
+              "NAME": "default"
+            }
+          ]
+        },
+        {
+          "TARGETS": []
+        }
+      ],
+      "BUILD_MODE": "debug"
+    }
+  },
+  "totalTime": 3808926208,
+  "moduleNum": 1,
+  "taskTime": {
+    "compileArkTS": 3350694083,
+    "buildArkTS": 0,
+    "compileJS": 0,
+    "buildJS": 0,
+    "compileResource": 29321459,
+    "packageHap": 0,
+    "signHap": 0
+  },
+  "isIncremental": true,
+  "hasIncremental": true,
+  "isParallel": true,
+  "IS_DAEMON": true,
+  "LOG_LEVEL": "INFO",
+  "IS_HVIGORFILE_TYPE_CHECK": false,
+  "TASK_TIME": {
+    "videocache": {
+      "ProcessOHPackageJson": 1075125,
+      "CreateHarModuleInfo": 253666,
+      "ConfigureCmake": 43420791,
+      "MergeProfile": 1701542,
+      "GeneratePkgContextInfo": 271250,
+      "ProcessIntegratedHsp": 677000,
+      "BuildNativeWithCmake": 4927917,
+      "ProcessProfile": 48214542,
+      "ProcessRouterMap": 1190000,
+      "ProcessResource": 2240500,
+      "GenerateLoaderJson": 21395583,
+      "CompileResource": 29321459,
+      "ProcessObfuscationFiles": 187167,
+      "BuildNativeWithNinja": 781747750,
+      "ProcessLibs": 41451500,
+      "DoNativeStrip": 37387750,
+      "CacheNativeLibs": 226517625,
+      "HarCompileArkTS": 3350694083,
+      "PackageHar": 131367708,
+      "PackageSignHar": 1218500,
+      "assembleHar": 181166
+    }
+  },
+  "BUILD_ID": "202408230024001390"
+}

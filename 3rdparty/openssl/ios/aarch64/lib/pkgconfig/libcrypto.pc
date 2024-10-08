@@ -1,0 +1,12 @@
+prefix=/Users/vv/Documents/Code/GitHub/build/openssl
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+enginesdir=${libdir}/engines-1.1
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.1.1x-dev
+Libs: -L${libdir} -lcrypto
+Libs.private:  
+Cflags: -I${includedir}

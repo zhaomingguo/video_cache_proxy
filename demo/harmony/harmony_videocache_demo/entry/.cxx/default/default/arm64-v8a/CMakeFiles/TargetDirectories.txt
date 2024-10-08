@@ -1,0 +1,3 @@
+/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/.cxx/default/default/arm64-v8a/CMakeFiles/entry.dir
+/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/.cxx/default/default/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/mingo/Applications/workspace/jojo/harmony_videocache_demo/entry/.cxx/default/default/arm64-v8a/CMakeFiles/rebuild_cache.dir

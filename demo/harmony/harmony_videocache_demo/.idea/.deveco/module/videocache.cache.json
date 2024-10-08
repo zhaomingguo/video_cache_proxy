@@ -1,0 +1,21 @@
+{
+	"BuildOptions":{
+		"SELECT_BUILD_TARGET":"default",
+		"BUILD_PATH":{
+			"OUTPUT_METADATA_JSON":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/hap_metadata/default/output_metadata.json",
+			"OUTPUT_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/outputs/default",
+			"RES_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/res/default",
+			"ETS_SUPER_VISUAL_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/cache/default/default@HarCompileArkTS/esmodule",
+			"JS_ASSETS_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/loader_out/default",
+			"INTERMEDIA_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates",
+			"RES_PROFILE_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/res/default/resources/base/profile",
+			"WORKER_LOADER":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/loader/default/loader.json",
+			"MANIFEST_JSON":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/manifest/default",
+			"JS_LITE_ASSETS_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/loader_out_lite/default",
+			"JS_SUPER_VISUAL_PATH":"/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/cache/default/default@HarCompileJS/jsbundle"
+		}
+	},
+	"CommonInfo":{
+		"current.select.target":"default"
+	}
+}

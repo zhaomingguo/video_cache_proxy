@@ -1,0 +1,14 @@
+# ninja log v6
+1	329	1724341951872476244	CMakeFiles/videocache.dir/napi_init.cpp.o	e28548265dcce7d0
+331	497	1724341952202545861	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+3	382	1724342285607635574	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+4	498	1724342506641099425	CMakeFiles/videocache.dir/napi_init.cpp.o	e28548265dcce7d0
+499	727	1724342507136048781	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+6	360	1724342543412422575	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+3	415	1724342621668957018	CMakeFiles/videocache.dir/napi_init.cpp.o	e28548265dcce7d0
+416	641	1724342622081256556	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+3	480	1724343080463770000	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+3	414	1724343188558744080	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+22	464	1724343740662032565	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+4	347	1724343754654335592	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4
+4	362	1724343840800759744	/Users/mingo/Applications/workspace/jojo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/cmake/default/obj/arm64-v8a/libvideocache.so	b284b709156309e4

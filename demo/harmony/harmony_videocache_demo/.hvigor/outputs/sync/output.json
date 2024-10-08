@@ -1,0 +1,291 @@
+{
+  "ohos-module-entry": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build",
+    "DEPENDENCY_INFO": {
+      "videocache": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache"
+    },
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/src/main",
+        "RESOURCES_PATH": [
+          "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/cache/default/default@CompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/cache/default/default@CompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/hap_metadata/default/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/src/ohosTest",
+        "RESOURCES_PATH": [
+          "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/src/ohosTest/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/outputs/ohosTest",
+          "INTERMEDIA_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/loader_out/ohosTest",
+          "JS_LITE_ASSETS_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/loader_out_lite/ohosTest",
+          "RES_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/res/ohosTest",
+          "RES_PROFILE_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/res/ohosTest/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/cache/ohosTest/ohosTest@OhosTestCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/loader/ohosTest/loader.json",
+          "MANIFEST_JSON": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/manifest/ohosTest",
+          "OUTPUT_METADATA_JSON": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry/build/default/intermediates/hap_metadata/ohosTest/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "externalNativeOptions": {
+          "path": "./src/main/cpp/CMakeLists.txt",
+          "arguments": "",
+          "cppFlags": ""
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "externalNativeOptions": {
+          "path": "./src/main/cpp/CMakeLists.txt",
+          "arguments": "",
+          "cppFlags": ""
+        }
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              }
+            }
+          },
+          "nativeLib": {
+            "debugSymbol": {
+              "strip": true,
+              "exclude": []
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-module-videocache": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build",
+    "DEPENDENCY_INFO": {},
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main",
+        "RESOURCES_PATH": [
+          "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/src/main/resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/outputs/default",
+          "INTERMEDIA_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates",
+          "JS_ASSETS_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/loader_out/default",
+          "JS_LITE_ASSETS_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/loader_out_lite/default",
+          "RES_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/res/default",
+          "RES_PROFILE_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/res/default/resources/base/profile",
+          "ETS_SUPER_VISUAL_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/cache/default/default@HarCompileArkTS/esmodule",
+          "JS_SUPER_VISUAL_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/cache/default/default@HarCompileJS/jsbundle",
+          "WORKER_LOADER": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/loader/default/loader.json",
+          "MANIFEST_JSON": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/manifest/default",
+          "OUTPUT_METADATA_JSON": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache/build/default/intermediates/hap_metadata/default/output_metadata.json"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "externalNativeOptions": {
+          "path": "./src/main/cpp/CMakeLists.txt",
+          "arguments": "",
+          "cppFlags": ""
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "externalNativeOptions": {
+          "path": "./src/main/cpp/CMakeLists.txt",
+          "arguments": "",
+          "cppFlags": ""
+        }
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": true,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          },
+          "nativeLib": {
+            "debugSymbol": {
+              "strip": true,
+              "exclude": []
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    }
+  },
+  "ohos-project": {
+    "SELECT_PRODUCT_NAME": "default",
+    "MODULE_BUILD_DIR": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/build",
+    "BUNDLE_NAME": "com.example.harmony_videocache_demo",
+    "BUILD_PATH": {
+      "OUTPUT_PATH": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo"
+      },
+      {
+        "name": "videocache",
+        "srcPath": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo/videocache",
+        "belongProjectPath": "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo"
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "/Users/mingo/.ohos/config/default_harmony_videocache_demo_mu_gWoDHnuKPMq8sGi4DF-s4Aq_zWvJ-1Mt54C5CsBk=.cer",
+              "storePassword": "0000001BD78272A940366C107F752C697F3CE9F1D59BCE3CD7A070A86F5B6858A8E0B67DB7A438EC22C71F",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001BE95687D2E92ED02E63DFC967DFB7F4C4BF1511AB7C4F31BDFA5F52103777DBF8794050A46EA063",
+              "profile": "/Users/mingo/.ohos/config/default_harmony_videocache_demo_mu_gWoDHnuKPMq8sGi4DF-s4Aq_zWvJ-1Mt54C5CsBk=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "/Users/mingo/.ohos/config/default_harmony_videocache_demo_mu_gWoDHnuKPMq8sGi4DF-s4Aq_zWvJ-1Mt54C5CsBk=.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "5.0.0(12)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "buildModeSet": [
+          {
+            "name": "debug"
+          },
+          {
+            "name": "release"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "videocache",
+          "srcPath": "./videocache"
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false,
+      "hvigor.keepDependency": true
+    },
+    "OVERALL_PROJECT_PATHS": [
+      "/Users/mingo/Applications/workspace/demo/video-cache-proxy/template/harmony/harmony_videocache_demo"
+    ]
+  },
+  "version": 1
+}
