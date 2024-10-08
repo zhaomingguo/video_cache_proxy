@@ -1,1 +1,1 @@
-# video_cache_proxy
+# video-cache-proxy
