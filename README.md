@@ -12,17 +12,19 @@ This library is a video caching library designed for mobile platforms (iOS/Andro
 6. **Cache Management**: Supports customizable cache eviction mechanisms.
 7. **LRU Eviction Strategy**: Implements an LRU (Least Recently Used) cache eviction strategy to ensure cache efficiency.
 
-## Android 
+## Android Integration
 
 ### 1. Add Dependency
 
 Add the following line to your `build.gradle` file to include the video caching library:
 
-> implementation 'cn.demo.android.third_party:VideoCache:0.0.22'
-
+```
+implementation 'cn.demo.android.third_party:VideoCache:0.0.22'
+```
 
 ### 2. Caching Library Interface Class
 
+```
 import androidx.annotation.NonNull;
 import com.jojo.videocache.CacheCallbackInfo;
 import com.jojo.videocache.VideoCache;
@@ -92,9 +94,11 @@ public class GeneralCacheProxy {
         videoCache.dispose();
     }
 }
+```
 
 ### 3. Video Cache Manager
 
+```
 import android.annotation.SuppressLint
 import android.content.Context
 import java.io.File
@@ -118,11 +122,13 @@ object VideoCacheManager {
         return videoCacheProxy
     }
 }
+```
 
 ### 4. Usage
 
 #### 4.1 Initialize and Start Caching
 
+```
 if (VideoCacheManager.getGeneralCacheProxy() == null) {
     val cacheDir = cacheConfig.dir + File.separator + GENERAL_CACHE_DIR
     createDir(cacheDir)
@@ -137,9 +143,11 @@ if (VideoCacheManager.getGeneralCacheProxy() == null) {
 
     VideoCacheManager.initGeneralCacheProxy(config)
 }
+```
 
 #### 4.2 Get Proxy URL for Video
 
+```
 val proxy: GeneralCacheProxy? = VideoCacheManager.getGeneralCacheProxy()
 val proxyUrl = proxy?.getProxyUrl(url) ?: ""
 val uri = Uri.parse(url)
@@ -152,12 +160,17 @@ if (!inetAddressList.isNullOrEmpty()) {
     proxy?.updateConfig(uri.host, inetAddressList)
     config?.customHeaders = arrayOf("PlayerId: $uniKey")
 }
+```
+
 
 #### 4.3 Clean Cache
 
+```
 cleanCache()
-
+```
 
 #### 4.4 Dispose of the Cache Library
 
+```
 dispose()
+```
