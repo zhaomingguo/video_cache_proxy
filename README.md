@@ -155,11 +155,9 @@ if (!inetAddressList.isNullOrEmpty()) {
 
 #### 4.3 Clean Cache
 
-// Clean all mp4 and hls caches
 cleanCache()
 
 
 #### 4.4 Dispose of the Cache Library
 
-// Dispose of the cache proxy library
 dispose()
